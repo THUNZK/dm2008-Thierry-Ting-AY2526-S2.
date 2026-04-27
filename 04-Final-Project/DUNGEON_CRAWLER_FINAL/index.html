@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dungeon Crawler</title>
+<link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Micro+5&family=Tiny5&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        background: #0d0f14;
+        overflow: hidden;
+        color: white;
+        font-family: monospace;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      canvas {
+        border: 2px solid #2b2f3a;
+        box-shadow: 0 0 0 4px #111;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      window.GAME_ASSETS = {
+        canvas:     ['assets/canvas.png'],
+        wall:       ['assets/Wall.png'],
+        floor:      ['assets/floor.png'],
+        stairs:     ['assets/stairs.png'],
+        player:     ['assets/player.png'],
+        portrait:   ['assets/playericon.png'],
+        enemyFist:  ['assets/enemyFist.png'],
+        enemySword: ['assets/enemySword.png'],
+        enemyBow:   ['assets/enemyBow.png'],
+        iconPunch:  ['assets/iconPunch.png'],
+        iconSword:  ['assets/iconSword.png'],
+        iconBow:    ['assets/iconBow.png'],
+        iconPotion: ['assets/iconPotion.png'],
+        xpBar: ['assets/xp_bar.png'],
+hpBar: ['assets/hp_bar.png'],
+enBar: ['assets/en_bar.png'],
+      //  bgm:        ['assets/DC_bgm.mp3'],
+
+      };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
